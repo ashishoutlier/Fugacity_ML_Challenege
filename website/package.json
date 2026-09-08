@@ -12,7 +12,8 @@
     "lint": "oxlint",
     "format": "oxfmt",
     "test": "node --experimental-strip-types --test lib/reactor.test.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build:pages": "vite build --config vite.pages.config.ts"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",

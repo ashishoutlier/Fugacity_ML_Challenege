@@ -36,3 +36,13 @@ Archivo sets the headings and interface labels. IBM Plex Serif carries the longe
 * `lib/reactor.test.ts` checks the numerical behavior.
 
 The Sites project is recorded in `.openai/hosting.json`. Production deployment uses a validated build of this directory.
+
+## Static hosting
+
+The same page can also run without a server:
+
+```bash
+npm run build:pages
+```
+
+This writes `pages-dist/index.html` and its assets with the repository path required by GitHub Pages. The static build shares the page, styling, and numerical model with the Sites version. Publishing requires configuring GitHub Pages and running the manual publication workflow.

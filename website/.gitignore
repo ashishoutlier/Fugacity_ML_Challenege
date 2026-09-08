@@ -39,3 +39,4 @@ next-env.d.ts
 
 # TypeScript compiler cache
 *.tsbuildinfo
+/pages-dist/
