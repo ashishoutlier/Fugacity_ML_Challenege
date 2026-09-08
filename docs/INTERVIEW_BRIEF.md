@@ -16,9 +16,9 @@ If the original challenge results can be substantiated, an optional results bull
 
 The numbers above come from the original presentation. Do not describe them as independently reproduced, attribute the 10.76 score to the final hybrid, or convert them into an accuracy percentage.
 
-## A 45-second explanation
+## Explain it in 45 seconds
 
-“The task was to predict the yield of an intermediate product in a continuous chemical reactor with a small training set. The desired product can react further into a byproduct, and temperature changes both reaction rates. I encoded that behavior in coupled reaction and heat balances, fitted the physical coefficients with a robust loss, and used ExtraTrees to correct residual errors. The interesting part was comparing progressively richer physical models and refitting the physics within each validation fold. The public repository now includes a demo without a dataset demo and numerical checks; reproducing the challenge scores still requires the original input data.”
+“The task was to predict the yield of an intermediate product in a continuous chemical reactor with a small training set. The desired product can react further into a byproduct, and temperature changes both reaction rates. I encoded that behavior in coupled reaction and heat balances, fitted the physical coefficients with a robust loss, and used ExtraTrees to correct residual errors. The interesting part was comparing progressively richer physical models and refitting the physics within each validation fold. The public repository now includes numerical checks and an illustrative demo that runs without challenge data; reproducing the challenge scores still requires the original input data.”
 
 ## Questions to be ready for
 

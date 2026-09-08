@@ -15,7 +15,7 @@ These are **reported**, not independently reproduced, scores. Do not label 10.76
 
 ## Verifiable artifacts
 
-The original submission contains 50 finite values within [0, 100], in one `overall_yield` column. The PDF, editable presentation, and original notebook are preserved; their hashes are recorded in [original-artifacts.sha256.json](original-artifacts.sha256.json).
+The original submission contains 50 finite values within [0, 100], in one `overall_yield` column. The PDF, editable presentation, and original notebook are preserved; their hashes are recorded in [artifact checksum manifest](original-artifacts.sha256.json).
 
 The public tests exercise the maintained model's numerical and inference behavior using synthetic fixtures. They do not validate challenge accuracy. The public demo uses example coefficients and is not a trained predictor.
 
@@ -34,7 +34,7 @@ The model's `L/Q` variable omits reactor area, so it is a residence time group. 
 * Uses the saved configuration during inference, including nondefault reference temperature and grid resolution.
 * Reloads the serialized model before comparing predictions on all test rows.
 * Preserves the original submission and archives the original notebook unchanged.
-* Exports CV summaries and λ-sweep tables when the challenge notebook runs.
+* Exports CV summaries and tables from the λ sweep when the challenge notebook runs.
 * Rewords unsupported conclusions as assumptions or experiments still requiring evidence.
 
 The physical equations, original bounds, restart strategy, default residual weight, and submission rounding are retained. A fresh full data run may differ from historical results because the original data and execution environment were not supplied.
