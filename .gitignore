@@ -1,0 +1,20 @@
+# Local environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Challenge inputs are supplied separately; never commit them accidentally.
+data/raw/*.csv
+train_dataset.csv
+test_dataset.csv
+
+# Generated models, predictions, and executed notebooks
+artifacts/
+*.joblib
+tmp/

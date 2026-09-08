@@ -1,0 +1,8 @@
+*.py text eol=lf
+*.md text eol=lf
+*.ipynb text eol=lf
+*.pdf binary
+*.pptx binary
+*.png binary
+website/components/ui/** linguist-vendored
+website/hooks/** linguist-vendored
